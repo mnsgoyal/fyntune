@@ -1,0 +1,734 @@
+@font-face {
+  font-family:'mcq-icons';
+  src:  url('../fonts/mcq-icons.eot?ex24i7');
+  src:  url('../fonts/mcq-icons.eot?ex24i7#iefix') format('embedded-opentype'),
+    url('../fonts/mcq-icons.ttf?ex24i7') format('truetype'),
+    url('../fonts/mcq-icons.woff?ex24i7') format('woff'),
+    url('../fonts/mcq-icons.svg?ex24i7#mcq-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mcq-"], [class*=" mcq-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mcq-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mcq-search-2:before {
+  content: "\e9e7";
+}
+.mcq-pencil-2:before {
+  content: "\e9e6";
+}
+.mcq-win-place2:before {
+  content: "\e9e5";
+}
+.mcq-helmet:before {
+  content: "\e9e4";
+}
+.mcq-nascar:before {
+  content: "\e9e3";
+}
+.mcq-golf2:before {
+  content: "\e9dd";
+}
+.mcq-copy:before {
+  content: "\e9db";
+}
+.mcq-ncaaf:before {
+  content: "\e9d6";
+}
+.mcq-rainy2:before {
+  content: "\e9d2";
+}
+.mcq-mma:before {
+  content: "\e9c5";
+}
+.mcq-money-bag:before {
+  content: "\e9c6";
+}
+.mcq-pga:before {
+  content: "\e9c7";
+}
+.mcq-snooker:before {
+  content: "\e9af";
+}
+.mcq-aussie-rules:before {
+  content: "\e99a";
+}
+.mcq-badminton:before {
+  content: "\e99b";
+}
+.mcq-boxing:before {
+  content: "\e99c";
+}
+.mcq-cricket:before {
+  content: "\e99d";
+}
+.mcq-cycling:before {
+  content: "\e99e";
+}
+.mcq-darts:before {
+  content: "\e99f";
+}
+.mcq-esports:before {
+  content: "\e9a0";
+}
+.mcq-formula:before {
+  content: "\e9a1";
+}
+.mcq-futsal:before {
+  content: "\e9a2";
+}
+.mcq-golf:before {
+  content: "\e9a3";
+}
+.mcq-handball:before {
+  content: "\e9a4";
+}
+.mcq-kabaddi:before {
+  content: "\e9a5";
+}
+.mcq-baseball:before {
+  content: "\e9a6";
+}
+.mcq-motor-sport:before {
+  content: "\e9a7";
+}
+.mcq-basketball:before {
+  content: "\e9a8";
+}
+.mcq-ncaa:before {
+  content: "\e9a9";
+}
+.mcq-netball:before {
+  content: "\e9aa";
+}
+.mcq-hockey:before {
+  content: "\e9ab";
+}
+.mcq-rugby-league:before {
+  content: "\e9ac";
+}
+.mcq-olympics:before {
+  content: "\e9ad";
+}
+.mcq-rugby-union:before {
+  content: "\e9ae";
+}
+.mcq-table-tennis:before {
+  content: "\e9b1";
+}
+.mcq-tennis:before {
+  content: "\e9b2";
+}
+.mcq-volleyball:before {
+  content: "\e9b3";
+}
+.mcq-water-polo:before {
+  content: "\e9b4";
+}
+.mcq-winter-sports:before {
+  content: "\e9b5";
+}
+.mcq-soccer:before {
+  content: "\e90e";
+}
+.mcq-cricket-bat:before {
+  content: "\e916";
+}
+.mcq-check-board:before {
+  content: "\e9c8";
+}
+.mcq-early:before {
+  content: "\e9c9";
+}
+.mcq-fire2:before {
+  content: "\e9ca";
+}
+.mcq-late:before {
+  content: "\e9cb";
+}
+.mcq-lightning-bolt:before {
+  content: "\e9cc";
+}
+.mcq-rain:before {
+  content: "\e9cd";
+}
+.mcq-snow:before {
+  content: "\e9ce";
+}
+.mcq-thunderstorms:before {
+  content: "\e9cf";
+}
+.mcq-crown:before {
+  content: "\e9d0";
+}
+.mcq-trending-down:before {
+  content: "\e94e";
+}
+.mcq-trending-up:before {
+  content: "\e94f";
+}
+.mcq-minus-circle:before {
+  content: "\e90f";
+}
+.mcq-plus-circle:before {
+  content: "\e910";
+}
+.mcq-circle:before {
+  content: "\e911";
+}
+.mcq-bell:before {
+  content: "\e907";
+}
+.mcq-rainy:before {
+  content: "\e900";
+}
+.mcq-cloud:before {
+  content: "\e900";
+}
+.mcq-weather:before {
+  content: "\e900";
+}
+.mcq-cloudy:before {
+  content: "\e901";
+}
+.mcq-weather2:before {
+  content: "\e901";
+}
+.mcq-cloudy2:before {
+  content: "\e902";
+}
+.mcq-weather3:before {
+  content: "\e902";
+}
+.mcq-home:before {
+  content: "\e903";
+}
+.mcq-newspaper:before {
+  content: "\e904";
+}
+.mcq-pencil:before {
+  content: "\e905";
+}
+.mcq-image:before {
+  content: "\e906";
+}
+.mcq-camera:before {
+  content: "\e908";
+}
+.mcq-bullhorn:before {
+  content: "\e909";
+}
+.mcq-connection:before {
+  content: "\e90a";
+}
+.mcq-files-empty:before {
+  content: "\e90b";
+}
+.mcq-file-text2:before {
+  content: "\e90c";
+}
+.mcq-file-zip:before {
+  content: "\e90d";
+}
+.mcq-price-tag:before {
+  content: "\e913";
+}
+.mcq-price-tags:before {
+  content: "\e914";
+}
+.mcq-phone:before {
+  content: "\e915";
+}
+.mcq-envelop:before {
+  content: "\e917";
+}
+.mcq-pushpin:before {
+  content: "\e918";
+}
+.mcq-location:before {
+  content: "\e919";
+}
+.mcq-history:before {
+  content: "\e91a";
+}
+.mcq-clock:before {
+  content: "\e91b";
+}
+.mcq-clock2:before {
+  content: "\e91c";
+}
+.mcq-calendar:before {
+  content: "\e91d";
+}
+.mcq-display:before {
+  content: "\e91f";
+}
+.mcq-mobile:before {
+  content: "\e920";
+}
+.mcq-mobile2:before {
+  content: "\e921";
+}
+.mcq-undo:before {
+  content: "\e924";
+}
+.mcq-redo:before {
+  content: "\e925";
+}
+.mcq-undo2:before {
+  content: "\e926";
+}
+.mcq-redo2:before {
+  content: "\e927";
+}
+.mcq-forward:before {
+  content: "\e928";
+}
+.mcq-reply:before {
+  content: "\e929";
+}
+.mcq-bubble:before {
+  content: "\e92a";
+}
+.mcq-bubbles2:before {
+  content: "\e92b";
+}
+.mcq-bubble2:before {
+  content: "\e92c";
+}
+.mcq-user:before {
+  content: "\e92d";
+}
+.mcq-users:before {
+  content: "\e92e";
+}
+.mcq-user-plus:before {
+  content: "\e92f";
+}
+.mcq-user-minus:before {
+  content: "\e930";
+}
+.mcq-user-check:before {
+  content: "\e931";
+}
+.mcq-hour-glass:before {
+  content: "\e932";
+}
+.mcq-spinner4:before {
+  content: "\e933";
+}
+.mcq-enlarge:before {
+  content: "\e934";
+}
+.mcq-shrink:before {
+  content: "\e935";
+}
+.mcq-enlarge2:before {
+  content: "\e936";
+}
+.mcq-shrink2:before {
+  content: "\e937";
+}
+.mcq-key2:before {
+  content: "\e938";
+}
+.mcq-lock:before {
+  content: "\e939";
+}
+.mcq-equalizer:before {
+  content: "\e93a";
+}
+.mcq-equalizer2:before {
+  content: "\e93b";
+}
+.mcq-cog:before {
+  content: "\e93c";
+}
+.mcq-cogs:before {
+  content: "\e93d";
+}
+.mcq-pie-chart:before {
+  content: "\e93e";
+}
+.mcq-stats-dots:before {
+  content: "\e93f";
+}
+.mcq-stats-bars:before {
+  content: "\e940";
+}
+.mcq-stats-bars2:before {
+  content: "\e941";
+}
+.mcq-trophy:before {
+  content: "\e942";
+}
+.mcq-gift:before {
+  content: "\e943";
+}
+.mcq-meter:before {
+  content: "\e944";
+}
+.mcq-fire:before {
+  content: "\e945";
+}
+.mcq-bin:before {
+  content: "\e946";
+}
+.mcq-switch:before {
+  content: "\e948";
+}
+.mcq-clipboard:before {
+  content: "\e949";
+}
+.mcq-list-numbered:before {
+  content: "\e94a";
+}
+.mcq-list2:before {
+  content: "\e94b";
+}
+.mcq-tree:before {
+  content: "\e94c";
+}
+.mcq-menu:before {
+  content: "\e94d";
+}
+.mcq-cloud2:before {
+  content: "\e951";
+}
+.mcq-cloud-download:before {
+  content: "\e952";
+}
+.mcq-cloud-upload:before {
+  content: "\e953";
+}
+.mcq-cloud-check:before {
+  content: "\e954";
+}
+.mcq-link:before {
+  content: "\e955";
+}
+.mcq-flag:before {
+  content: "\e956";
+}
+.mcq-attachment:before {
+  content: "\e957";
+}
+.mcq-eye:before {
+  content: "\e958";
+}
+.mcq-eye-plus:before {
+  content: "\e959";
+}
+.mcq-eye-minus:before {
+  content: "\e95a";
+}
+.mcq-eye-blocked:before {
+  content: "\e95b";
+}
+.mcq-bookmark:before {
+  content: "\e95c";
+}
+.mcq-bookmarks:before {
+  content: "\e95d";
+}
+.mcq-contrast:before {
+  content: "\e95f";
+}
+.mcq-sun:before {
+  content: "\e95e";
+}
+.mcq-brightness-contrast:before {
+  content: "\e960";
+}
+.mcq-star-empty:before {
+  content: "\e961";
+}
+.mcq-star-half:before {
+  content: "\e962";
+}
+.mcq-star-full:before {
+  content: "\e963";
+}
+.mcq-heart:before {
+  content: "\e964";
+}
+.mcq-smile:before {
+  content: "\e965";
+}
+.mcq-smile2:before {
+  content: "\e966";
+}
+.mcq-sad:before {
+  content: "\e967";
+}
+.mcq-sad2:before {
+  content: "\e968";
+}
+.mcq-plus:before {
+  content: "\e96a";
+}
+.mcq-minus:before {
+  content: "\e96b";
+}
+.mcq-notification:before {
+  content: "\e969";
+}
+.mcq-info-circle:before {
+  content: "\e96c";
+}
+.mcq-info:before {
+  content: "\e9d1";
+}
+.mcq-cancel-circle:before {
+  content: "\e96d";
+}
+.mcq-blocked:before {
+  content: "\e96e";
+}
+.mcq-cross:before {
+  content: "\e96f";
+}
+.mcq-cross-fill:before {
+  content: "\e9d8";
+}
+.mcq-checkmark:before {
+  content: "\e970";
+}
+.mcq-check2:before {
+  content: "\e912";
+}
+.mcq-check:before {
+  content: "\e91e";
+}
+.mcq-loop2:before {
+  content: "\e972";
+}
+.mcq-arrow-up2:before {
+  content: "\e973";
+}
+.mcq-arrow-right2:before {
+  content: "\e974";
+}
+.mcq-arrow-down2:before {
+  content: "\e975";
+}
+.mcq-arrow-left2:before {
+  content: "\e976";
+}
+.mcq-circle-up:before {
+  content: "\e977";
+}
+.mcq-circle-right:before {
+  content: "\e978";
+}
+.mcq-circle-down:before {
+  content: "\e979";
+}
+.mcq-circle-left:before {
+  content: "\e97a";
+}
+.mcq-sort-alpha-asc:before {
+  content: "\e97b";
+}
+.mcq-sort-amount-asc:before {
+  content: "\e97c";
+}
+.mcq-list-nav:before {
+  content: "\e985";
+}
+.mcq-turning-arrow:before {
+  content: "\e986";
+}
+.mcq-important:before {
+  content: "\e9c2";
+}
+.mcq-facebook:before {
+  content: "\e9c3";
+}
+.mcq-twitter:before {
+  content: "\e9c4";
+}
+.mcq-comparison:before {
+  content: "\e9d3";
+}
+.mcq-edit:before {
+  content: "\e9d4";
+}
+.mcq-horse-race:before {
+  content: "\e971";
+}
+.mcq-logout:before {
+  content: "\e981";
+}
+.mcq-tools:before {
+  content: "\e982";
+}
+.mcq-ladder:before {
+  content: "\e947";
+}
+.mcq-arrow-down:before {
+  content: "\e9bd";
+}
+.mcq-arrow-left:before {
+  content: "\e9be";
+}
+.mcq-arrow-right:before {
+  content: "\e9bf";
+}
+.mcq-arrow-up:before {
+  content: "\e9c0";
+}
+.mcq-continue:before {
+  content: "\e922";
+}
+.mcq-cruncher:before {
+  content: "\e923";
+}
+.mcq-jersey:before {
+  content: "\e9bb";
+}
+.mcq-jerseys:before {
+  content: "\e9bc";
+}
+.mcq-question:before {
+  content: "\e97d";
+}
+.mcq-question-circle:before {
+  content: "\e983";
+}
+.mcq-search:before {
+  content: "\e97e";
+}
+.mcq-search-plus:before {
+  content: "\e97f";
+}
+.mcq-search-minus:before {
+  content: "\e980";
+}
+.mcq-question-circle-o:before {
+  content: "\e98e";
+}
+.mcq-calendar2:before {
+  content: "\e984";
+}
+.mcq-arrows-v:before {
+  content: "\e987";
+}
+.mcq-arrows-h:before {
+  content: "\e988";
+}
+.mcq-sort:before {
+  content: "\e989";
+}
+.mcq-sort-desc:before {
+  content: "\e98a";
+}
+.mcq-sort-asc:before {
+  content: "\e98b";
+}
+.mcq-long-arrow-down:before {
+  content: "\e98c";
+}
+.mcq-long-arrow-up:before {
+  content: "\e98d";
+}
+.mcq-long-arrow-left:before {
+  content: "\e9c1";
+}
+.mcq-long-arrow-right:before {
+  content: "\e9b0";
+}
+.mcq-user-circle:before {
+  content: "\e98f";
+}
+.mcq-user-circle-o:before {
+  content: "\e990";
+}
+.mcq-predictor:before {
+  content: "\e9d7";
+}
+.mcq-stadium:before {
+  content: "\e9d5";
+}
+.mcq-active-horse:before {
+  content: "\e9b6";
+}
+.mcq-breakdown:before {
+  content: "\e9b7";
+}
+.mcq-active-users:before {
+  content: "\e9b8";
+}
+.mcq-unique-user:before {
+  content: "\e9b9";
+}
+.mcq-meeting:before {
+  content: "\e996";
+}
+.mcq-users2:before {
+  content: "\e999";
+}
+.mcq-active-meeting:before {
+  content: "\e991";
+}
+.mcq-result:before {
+  content: "\e9ba";
+}
+.mcq-blocked-user:before {
+  content: "\e992";
+}
+.mcq-control:before {
+  content: "\e993";
+}
+.mcq-control2:before {
+  content: "\e950";
+}
+.mcq-icons:before {
+  content: "\e995";
+}
+.mcq-dashboard-setting:before {
+  content: "\e994";
+}
+.mcq-password-setting:before {
+  content: "\e997";
+}
+.mcq-power:before {
+  content: "\e998";
+}
+.mcq-push:before {
+  content: "\e9d9";
+}
+.mcq-whatsapp:before {
+  content: "\e9da";
+}
+.mcq-win-place:before {
+  content: "\e9dc";
+}
+.mcq-drag-arrow:before {
+  content: "\e9de";
+}
+.mcq-sms:before {
+  content: "\e9df";
+}
+.mcq-thumbs-up:before {
+  content: "\e9e0";
+}
+.mcq-trophy2:before {
+  content: "\e9e1";
+}
+.mcq-drag:before {
+  content: "\e9e2";
+}
